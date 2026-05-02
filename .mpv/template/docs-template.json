@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "engine": "fumadocs",
+  "adapterKey": "fumadocs",
+  "engineVersion": "^16.0.0",
+  "content": {
+    "docsTarget": "content/docs",
+    "staticTarget": "public"
+  },
+  "build": {
+    "packageManager": "npm",
+    "installCommand": "npm install",
+    "buildCommand": "npm run build",
+    "outputDir": "out"
+  },
+  "runtimeConfig": {
+    "siteUrlEnv": "DOCS_SITE_URL",
+    "basePathEnv": "DOCS_BASE_PATH",
+    "titleEnv": "DOCS_TITLE",
+    "portalNameEnv": "DOCS_PORTAL_NAME",
+    "portalUrlEnv": "DOCS_PORTAL_URL"
+  }
+}

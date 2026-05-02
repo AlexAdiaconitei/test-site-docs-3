@@ -1,0 +1,13 @@
+name: MPV Documentation Publisher
+description: Build neutral documentation content with an MPV publication template and upload a GitHub Pages artifact.
+inputs:
+  build-id:
+    description: Platform build id for correlation.
+    required: false
+  publication-config:
+    description: Path to .mpv/publication.json.
+    required: true
+    default: .mpv/publication.json
+runs:
+  using: node20
+  main: dist/index.js
