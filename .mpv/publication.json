@@ -16,12 +16,12 @@
     "staticSourcePath": "static"
   },
   "template": {
-    "id": "183c754b-a97d-4d45-a0fd-1523f4961c61",
+    "id": "490b7297-efaa-4310-aff6-35efbb400572",
     "repository": "AlexAdiaconitei/docs-manager",
     "ref": "main",
-    "path": "./templates/docusaurus",
+    "path": "templates/fumadocs",
     "localPath": ".mpv/template",
-    "adapterKey": "docusaurus"
+    "adapterKey": "fumadocs"
   },
   "publication": {
     "title": "test-site-docs-3",
